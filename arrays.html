@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+    <script>
+    var helloFrom = function (personName)
+     {
+    return "Hello from " + personName;
+    }
+
+var people = ['Ammu', 'Achu', 'Appu'];
+
+people.push('Anu');
+people.push('Allu');
+
+people.pop();
+
+for (var i=0; i < people.length; i++) {
+    var greeting = helloFrom(people[i]);
+    alert(greeting);
+}
+</script>
+</body>
+</html>
